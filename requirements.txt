@@ -1,0 +1,7 @@
+pygame==2.5.2
+pymunk==6.6.0
+imageio==2.33.1
+imageio-ffmpeg==0.4.9
+numpy==1.26.4
+pandas==2.2.1
+soundfile==0.12.1 

@@ -21,8 +21,8 @@ Un simulateur de physique interactif qui transforme les collisions de billes en 
 Voici deux exemples de miniatures générées automatiquement par le projet :
 
 <p align="center">
-  <img src="output/thumbnail.png" alt="Miniature TikTok générée" width="250" style="margin-right: 20px;"/>
-  <img src="output/message_ex/thumbnail-message_ex.png" alt="Miniature TikTok message_ex" width="250"/>
+  <img src="readme/thumbnail-sample-1.png" alt="Miniature TikTok générée" width="250" style="margin-right: 20px;"/>
+  <img src="readme/thumbnail-sample-2.png" alt="Miniature TikTok message_ex" width="250"/>
 </p>
 
 Chaque miniature reprend la question du thème, les deux choix de réponses illustrés par des images, et un design optimisé pour TikTok.

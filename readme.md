@@ -54,11 +54,11 @@ Chaque thème contient :
 theme/
 ├── bg.png          # Image de fond
 ├── music.wav       # Musique de fond
-├── non.png         # Image pour réponse négative
-├── non.wav         # Son pour réponse négative
-├── oui.png         # Image pour réponse positive
-├── oui.wav         # Son pour réponse positive
 └── question.wav    # Son de la question
+├── a.png         # Image pour réponse A
+├── a.wav         # Son pour réponse A
+├── b.png         # Image pour réponse B
+├── b.wav         # Son pour réponse B
 ```
 
 ## 🖼️ Génération de Miniatures
@@ -91,7 +91,7 @@ La miniature sera sauvegardée dans le dossier `output/` avec le format `thumbna
 
 1. Clonez le dépôt :
 ```bash
-git clone https://github.com/votre-username/music.git
+git clone https://github.com/aifedespaix/NostradaBalls
 cd music
 ```
 
@@ -126,7 +126,7 @@ python main.py
 music/
 ├── assets/          # Ressources graphiques et sonores
 │   ├── themes/     # Thèmes TikTok prédéfinis
-│   ├── fonts/      # Polices personnalisées
+│   ├── fonts/      # Polices
 │   └── thumbnail/  # Ressources pour les miniatures
 ├── core/           # Cœur de la simulation
 ├── physics/        # Moteur physique

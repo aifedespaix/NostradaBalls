@@ -144,7 +144,7 @@ def main():
         # Texte sous logo B
         x_text_start = x_logo_b
         y_text = y_logos + LOGO_SIZE + 20
-        draw_response_text(draw, REPONSE_B, x_text_start, y_text, LOGO_SIZE, font_reponse, CUVE_A_COLOR_START)
+        draw_response_text(draw, REPONSE_B, x_text_start, y_text, LOGO_SIZE, font_reponse, CUVE_B_COLOR_START)
 
     # Logo A (maintenant à gauche)
     logo_a = load_logo(REPONSE_A_IMAGE_PATH)
@@ -153,7 +153,7 @@ def main():
         # Texte sous logo A
         x_text_start = x_logo_a
         y_text = y_logos + LOGO_SIZE + 20
-        draw_response_text(draw, REPONSE_A, x_text_start, y_text, LOGO_SIZE, font_reponse, CUVE_B_COLOR_START)
+        draw_response_text(draw, REPONSE_A, x_text_start, y_text, LOGO_SIZE, font_reponse, CUVE_A_COLOR_START)
 
     # Sauvegarde
     base.save(OUTPUT_PATH)

@@ -7,14 +7,19 @@ HEIGHT = int(1920 * RATIO)
 FPS = 60
 VISUAL = DEBUG
 
-THEME = "semaine"
+THEME = "trompe"
 
 # Configuration des dossiers de sortie
 OUTPUT_DIR = f"output/{THEME}"  # Dossier de sortie basé sur le thème
 
-QUESTION = "Cette semaine, il va t'arriver..."
-REPONSE_A = "Une rencontre"
-REPONSE_B = "Une perte"
+QUESTION = "Est-ce que ton mec va te tromper ?"
+REPONSE_A = "Non, t'inquiètes pas"
+REPONSE_B = "Oui, il va te tromper"
+
+CUVE_A_COLOR_START = (255, 220, 240)  # rose très pâle, presque blanc
+CUVE_A_COLOR_END   = (255, 110, 180)  # rose framboise doux 
+CUVE_B_COLOR_START = (80, 0, 30)      # bordeaux profond presque noir
+CUVE_B_COLOR_END   = (180, 0, 60)     # rouge magenta sombre
 
 # Configuration de l'image de fond
 BACKGROUND_IMAGE_PATH = f"assets/themes/{THEME}/bg.png"  # Chemin vers l'image de fond
@@ -45,11 +50,6 @@ BEIGE_JAUNE = (232, 200, 100)
 BEIGE_JAUNE_FONCE = (208, 180, 90)
 NOIR_DOUX = (47, 47, 47)
 NOIR_DOUX_FONCE = (38, 38, 38)
-
-CUVE_A_COLOR_START = (255, 210, 150)   
-CUVE_A_COLOR_END   = (180, 80, 200)    
-CUVE_B_COLOR_START = (120, 140, 255)   
-CUVE_B_COLOR_END   = (60, 60, 80)      
 
 # Configuration de la musique de fond
 BACKGROUND_MUSIC_PATH = f"assets/themes/{THEME}/music.wav"  # Chemin vers la musique de fond
@@ -82,10 +82,10 @@ REPONSE_ZOOM_SPEED = 0.5  # Vitesse du zoom
 # Configuration des obstacles
 OBSTACLE_FRICTION = 2
 OBSTACLE_ELASTICITY = 0.2
-NUM_OBSTACLES = int(32 * RATIO) # Nombre total d'obstacles
-NUM_CIRCLES = int(20 * RATIO)     # Nombre de cercles
-NUM_ROTATING = int(18 * RATIO)       # Nombre d'obstacles rotatifs
-NUM_PIVOT = int(22 * RATIO)        # Nombre de barres pivotantes
+NUM_OBSTACLES = int(20 * RATIO) # Nombre total d'obstacles
+NUM_CIRCLES = int(25 * RATIO)     # Nombre de cercles
+NUM_ROTATING = int(0 * RATIO)       # Nombre d'obstacles rotatifs
+NUM_PIVOT = int(25 * RATIO)        # Nombre de barres pivotantes
 
 # Configuration des cuves
 CUVE_FRICTION = 0.5
